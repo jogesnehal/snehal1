@@ -1,0 +1,63 @@
+
+body{
+    width:100%;
+    height: 100%;
+}
+body{
+    background-color:#bdc3c7;
+}
+h1{
+    color:#9b59b6 ;
+}
+h2{
+    color: orange;
+}
+li{
+    color: blue;
+}
+p{
+    background-color: yellow;
+}
+input{
+    border: 3px;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border: 2px solid rgba(0, 0, 255, 0.863);
+}
+div p{
+    font-size: 25px ;
+}
+input[type=text]{
+    background-color:grey;
+}
+ :nth-child(5) > p {
+    background-color: pink;
+}
+ :nth-child(5) p:nth-child(3){
+    border:5px solid white;
+}
+.pink em{
+    font-size: 20px;
+    color: white;
+}
+li input[checked]{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#special::first-letter{
+    color:green;
+    font-size: 100px;
+
+}
+h1:hover{
+    color: blue;
+}
+a:visited{
+    color: grey;
+}
+
